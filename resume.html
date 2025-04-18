@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upesh Bhujel - Cybersecurity Professional</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+        .resume-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .header::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0,0 L100,0 L100,100 Z" fill="rgba(0,0,0,0.1)"/></svg>');
+            background-size: cover;
+            z-index: 1;
+            opacity: 0.7;
+        }
+        .header-content {
+            position: relative;
+            z-index: 2;
+        }
+        .section {
+            padding: 1.5rem 2rem;
+            border-bottom: 1px solid #eee;
+        }
+        .section:last-child {
+            border-bottom: none;
+        }
+        .section-title {
+            color: #1a1a2e;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        .section-title i {
+            margin-right: 10px;
+            color: #0f3460;
+        }
+        .skill-item {
+            background-color: #f1f5f9;
+            padding: 0.75rem 1rem;
+            border-radius: 6px;
+            margin-bottom: 0.75rem;
+            border-left: 4px solid #0f3460;
+        }
+        .experience-item {
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+        .experience-item:last-child {
+            margin-bottom: 0;
+        }
+        .experience-item::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 8px;
+            width: 10px;
+            height: 10px;
+            background: #0f3460;
+            border-radius: 50%;
+        }
+        .experience-date {
+            font-size: 0.85rem;
+            color: #666;
+            font-weight: 500;
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+            justify-content: center;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .bullet-list {
+            list-style-type: none;
+            padding-left: 1.5rem;
+        }
+        .bullet-list li {
+            position: relative;
+            margin-bottom: 0.5rem;
+        }
+        .bullet-list li::before {
+            content: "•";
+            color: #0f3460;
+            font-weight: bold;
+            position: absolute;
+            left: -1rem;
+        }
+        
+            body {
+                background-color: white;
+            }
+            .resume-container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+        
+    </style>
+</head>
+<body class="py-8">
+    <div class="resume-container">
+        <div class="header">
+            <div class="header-content text-center">
+                <h1 class="text-3xl font-bold mb-1">Upesh Bhujel</h1>
+                <h2 class="text-xl opacity-90 mb-4">Penetration Tester & Security Specialist</h2>
+                
+                <div class="contact-info text-sm justify-center">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bagar, PKR</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+977 9849599044</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>bhujelupesh@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-twitter"></i>
+                        <span>@bhujelupesh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title text-xl">
+                <i class="fas fa-user-circle"></i> PROFILE
+            </h3>
+            <p>
+                Penetration Tester with over 3 years of hands-on experience in cybersecurity, specializing in web application security, infrastructure security, and cryptography. Skilled in identifying and exploiting vulnerabilities, with a strong foundation in networking, penetration testing methodologies, and threat analysis. Actively engaged in security research and offensive security practices, leveraging tools like Burp Suite, Metasploit, and Wireshark to assess and secure applications. Passionate about exploring AI-driven cybersecurity solutions and automation in penetration testing. Seeking opportunities to enhance technical expertise, contribute to security assessments, and strengthen cyber defense strategies in a dynamic environment.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title text-xl">
+                <i class="fas fa-cogs"></i> SKILLS
+            </h3>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="skill-item">
+                    <h4 class="font-semibold">Web Penetration Testing</h4>
+                    <p class="text-sm">Expertise in web security testing methodologies, including identifying OWASP Top 10 vulnerabilities, security policies, and access controls. Experienced in using tools like Burp Suite for comprehensive vulnerability assessments and web exploitation.</p>
+                </div>
+
+                <div class="skill-item">
+                    <h4 class="font-semibold">Web Security</h4>
+                    <p class="text-sm">Advanced understanding of Web Application Firewalls (WAFs), risk management strategies, and security best practices to secure web applications against evolving threats.</p>
+                </div>
+
+                <div class="skill-item">
+                    <h4 class="font-semibold">CTF Experience</h4>
+                    <p class="text-sm">Hands-on experience in participating in both online and offline Capture The Flag (CTF) competitions, applying penetration testing techniques and security concepts to real-world challenges and scenarios.</p>
+                </div>
+
+                <div class="skill-item">
+                    <h4 class="font-semibold">Networking Concepts</h4>
+                    <p class="text-sm">Strong knowledge of networking protocols and concepts, including routing, switching, NAT, IP addressing, DHCP, TCP/IP, and the OSI model, with practical experience in identifying and mitigating network vulnerabilities.</p>
+                </div>
+
+                <div class="skill-item">
+                    <h4 class="font-semibold">Cryptography</h4>
+                    <p class="text-sm">In-depth understanding of encryption algorithms, hashing techniques, and blockchain cryptography principles, with a focus on securing communications and data.</p>
+                </div>
+
+                <div class="skill-item">
+                    <h4 class="font-semibold">Tools & Technologies</h4>
+                    <p class="text-sm">Proficient in using a wide range of security tools such as Burp Suite, Wireshark, Metasploit, Packet Tracer, and Ghidra for security analysis, vulnerability testing, and exploit development.</p>
+                </div>
+
+                <div class="skill-item">
+                    <h4 class="font-semibold">Linux Server Security & Hardening</h4>
+                    <p class="text-sm">Extensive experience in securing and hardening Linux servers, applying security best practices, and ensuring system integrity through effective configurations and access control mechanisms.</p>
+                </div>
+
+                <div class="skill-item">
+                    <h4 class="font-semibold">Programming & Scripting</h4>
+                    <p class="text-sm">Skilled in programming languages like Python, C, and Bash, leveraging them for security automation, vulnerability exploitation, and system analysis.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title text-xl">
+                <i class="fas fa-briefcase"></i> EXPERIENCES
+            </h3>
+            
+            <div class="experience-item pl-4">
+                <div class="flex justify-between items-start mb-2">
+                    <h4 class="font-semibold text-lg">Penetration Tester & Security Instructor</h4>
+                    <span class="experience-date">July 2023 – Present</span>
+                </div>
+                <h5 class="italic mb-2">TheMisFitOfNightRaid</h5>
+                <ul class="bullet-list">
+                    <li>Lead comprehensive security assessments using industry-standard tools such as Nmap, Wireshark, Burp Suite, and Metasploit to perform reconnaissance, enumeration, and exploitation, identifying and mitigating vulnerabilities across diverse environments.</li>
+                    <li>Actively participate in red team exercises, simulating real-world cyber threats to assess and improve security controls, providing actionable insights to strengthen defensive measures.</li>
+                    <li>Deliver hands-on training sessions on Web Security and Penetration Testing, empowering learners with practical cybersecurity skills and helping them develop expertise in offensive security practices.</li>
+                    <li>Spearheaded a cybersecurity awareness campaign, successfully attracting 20+ new members interested in security research, ethical hacking, and offensive security.</li>
+                    <li>Conduct in-depth training on Linux Server Hardening, equipping participants with the skills needed to secure Linux-based infrastructures, protect against cyber threats, and implement effective access control mechanisms.</li>
+                    <li>Organized and led a 48-hour Capture The Flag (CTF) competition, engaging 25+ participants from diverse technical backgrounds in real-time cybersecurity challenges, promoting collaboration and skill development in a competitive environment.</li>
+                    <li>Provided in-depth training on cryptographic algorithms, emphasizing their applications in real-world systems and highlighting common security vulnerabilities.</li>
+                    <li>Collaborated closely with development teams to integrate security best practices into the Software Development Lifecycle (SDLC), ensuring robust and secure application development and minimizing risks associated with vulnerabilities.</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item pl-4">
+                <div class="flex justify-between items-start mb-2">
+                    <h4 class="font-semibold text-lg">Cyber Security Intern</h4>
+                    <span class="experience-date">January 2023 – June 2023</span>
+                </div>
+                <h5 class="italic mb-2">TheMisFitOfNightRaid</h5>
+                <ul class="bullet-list">
+                    <li>Developed and optimized automated security scripts to streamline and enhance penetration testing and vulnerability assessment workflows, improving overall testing efficiency and effectiveness.</li>
+                    <li>Spearheaded the design and curation of advanced CTF (Capture The Flag) challenges, fostering hands-on learning and practical cybersecurity experience for participants, with a focus on real-world attack scenarios.</li>
+                    <li>Led the security team in penetration testing newly hardened servers and applications, identifying critical vulnerabilities, misconfigurations, and recommending strategic improvements for enhanced security.</li>
+                    <li>Coordinated and executed security assessments on client-facing applications and internal systems, providing actionable insights and mitigation strategies.</li>
+                    <li>Contributed significantly to online security labs and CTF competitions, demonstrating expertise in offensive security techniques and applying penetration testing methodologies in real-world contexts.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title text-xl">
+                <i class="fas fa-certificate"></i> CERTIFICATION
+            </h3>
+            <div class="pl-4">
+                <p>Certified in Cybersecurity – ISC2</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title text-xl">
+                <i class="fas fa-plus-circle"></i> ADDITIONAL
+            </h3>
+            <p>
+                As a key team member, I have contributed to web penetration testing for applications like Dozen and skillsewa.digital, owned by TheMisFitOfNightRaid and Skillsewa. I have worked on identifying security vulnerabilities and improving application security. Additionally, I have been actively involved in security sessions conducted by the company, sharing insights and assisting in knowledge transfer.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
